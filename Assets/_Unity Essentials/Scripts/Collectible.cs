@@ -3,6 +3,8 @@ using UnityEngine;
 public class Collectible : MonoBehaviour
 {
     public float rotationSpeed;
+    public GameObject onCollectEffect;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

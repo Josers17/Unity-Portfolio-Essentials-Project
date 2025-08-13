@@ -14,4 +14,9 @@ public class Collectible : MonoBehaviour
     {
         transform.Rotate(0, rotationSpeed, 0);
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+
+    }
 }

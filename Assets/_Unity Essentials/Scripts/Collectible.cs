@@ -21,5 +21,8 @@ public class Collectible : MonoBehaviour
     {
         // Destroy the collectible
         Destroy(gameObject);
+
+        // Instantiate the particle effect
+        Instantiate(onCollectEffect, transform.position, transform.rotation);
     }
 }

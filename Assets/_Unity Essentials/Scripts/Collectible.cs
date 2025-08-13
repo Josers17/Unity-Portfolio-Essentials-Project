@@ -18,5 +18,6 @@ public class Collectible : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         // Destroy the collectible
+        Destroy(gameObject);
     }
 }
